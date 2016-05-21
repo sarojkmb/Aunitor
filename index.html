@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Page Title</title>
+		<meta charset="utf-8" />
+		
+		<!-- stylesheets -->
+		<link rel="stylesheet" href="styles/bootstrap.min.css" type="text/css" />
+		<link rel="stylesheet" href="styles/serverbase.min.css" />
+		<link rel="stylesheet" href="styles/serverbase-new.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2">
+						<a href="" class="companylogo">
+							<img src="images/CorrectedFinal.png" alt="" />
+						</a>
+					</div><!--.col-md-1-->
+					<div class="col-md-4">
+						<!-- <div class="search-section">
+							<input type="text" name="" value="Search Server by name" />
+							<a href="javascript:;">
+								<img src="images/search-128.png" alt="" />
+							</a>
+						</div>
+						 -->
+					</div><!--.col-md-9-->
+					<div class="col-md-3"></div>
+					<div class="col-md-3">
+						<div class="tool-box">
+							<ul class="lst-tool-box">
+								<li>
+									<em>Hi,</em>
+								</li>
+								<li>
+									<a href="javascript:;" class="user-profile">
+										<img src="https://img.myperks.in/images/user/27cac27f9f3668bafde9d4a9c24c3fc95fe400c4/ddb8eaa687d7b4583d134ddaf5c125b8469719e8/large/bb3e4e9ac089a654a9678ee560ad05636ded8225.jpg" alt="" />
+										<em>Saroj Kumar Behera</em>
+									</a>
+								</li>
+							</ul><!--.lst-tool-box-->
+						</div><!--.tool-box-->
+					</div><!--.col-md-2-->
+				</div><!--.row-->
+			</div><!--.container-->
+		</div><!--.header-->
+		
+		<div class="content">
+			<div class="container-fluid">
+			  
+			  <div class="row">
+			    <div class="col-md-12">
+			      <div class="clswitchtabs">
+			        <ul class="lsttabs">
+			          <li>
+			            <a href="javascript:;" id="atab-allserver" class="atab1 tabselected">All Servers</a>
+			          </li><li>
+			            <a href="javascript:;" id="atab-myserver" >My Server</a>
+			          </li><li>
+			            <a href="javascript:;" id="atab-adminserver" class="atabn">Admin</a>
+			          </li>
+			        </ul><!--.lsttabs-->
+
+			      </div><!--.clswitchtabs-->
+			    </div><!--.col-md-12-->
+			  </div><!--.row-->
+			  
+			  <div id="tabcontent-allserver" class="tab-content" style="display: block;">
+			  	<div class="row">
+			  	  
+			  	  <!-- DB Server :: START -->
+			  		<div class="col-md-3">
+			  			<div class="block-card">
+			  				<div class="block-header">
+			  				  <em class="status-text status-active">
+			  				    <span class="status-label">status :</span>
+			  				    active
+			  				  </em>
+			  					<span class="blinker blink-green blink-shiftright"></span>
+			  				</div><!--.block-header-->
+			  				<div class="block-container">
+			  					<img src="images/db-serrver.png" alt="" />
+			  					<div class="server-heading">
+			  						<h1>DB-Server</h1>
+			  						<div class="row">
+			  							<div class="col-md-6">
+			  								<label>response time</label>
+			  								<h2>134 <em>ms</em></h2>
+			  							</div><!--.col-md-6-->
+			  							<div class="col-md-6">
+			  								<label>bandwidth</label>
+			  								<h2>1000 <em>GB</em></h2>
+			  							</div><!--.col-md-6-->
+			  						</div><!--.row-->
+			  					</div><!--.server-heading-->
+			  				</div><!--.block-container-->
+			  				<div class="block-footer">
+			  				  <a href="javascript:;" class="clviewmore" data-toggle="modal" data-target="#modal-showserver-connected">see details</a>
+			  				</div><!--.block-footer-->
+			  			</div><!--.block-card-->
+			  		</div><!--.col-md-3-->
+			  		<!-- DB Server :: END -->
+			  		
+			  		<!-- Front End :: START -->
+			  		<div class="col-md-3">
+			  			<div class="block-card">
+			  				<div class="block-header">
+			  				  <em class="status-text status-active">
+			  				    <span class="status-label">status :</span>
+			  				    active
+			  				  </em>
+			  					<span class="blinker blink-yellow blink-shiftright"></span>
+			  				</div><!--.block-header-->
+			  				<div class="block-container">
+			  					<img src="images/front-end.png" alt="" />
+			  					<div class="server-heading">
+			  						<h1>Front-End</h1>
+			  						<div class="row">
+			  							<div class="col-md-6">
+			  								<label>response time</label>
+			  								<h2>224 <em>ms</em></h2>
+			  							</div><!--.col-md-6-->
+			  							<div class="col-md-6">
+			  								<label>bandwidth</label>
+			  								<h2>900 <em>GB</em></h2>
+			  							</div><!--.col-md-6-->
+			  						</div><!--.row-->
+			  					</div><!--.server-heading-->
+			  				</div><!--.block-container-->
+			  				<div class="block-footer">
+			  				  <a href="javascript:;" class="clviewmore">see details</a>
+			  				</div><!--.block-footer-->
+			  			</div><!--.block-card-->
+			  		</div><!--.col-md-3-->
+			  		<!-- Front End :: END -->
+			  		
+			  		<!-- Services :: START -->
+			  		<div class="col-md-3">
+			  			<div class="block-card" style="border: 1px solid red;">
+			  				<div class="block-header">
+			  				  <em class="status-text status-inactive">
+			  				    <span class="status-label">status :</span>
+			  				    inactive
+			  				  </em>
+			  					<span class="blinker blink-red blink-shiftright"></span>
+			  				</div><!--.block-header-->
+			  				<div class="block-container">
+			  					<img src="images/services.png" alt="" />
+			  					<div class="server-heading">
+			  						<h1>Services</h1>
+			  						<div class="row">
+			  							<div class="col-md-6">
+			  								<label class="response-low">response time</label>
+			  								<h2 class="response-low">14 <em>ms</em></h2>
+			  							</div><!--.col-md-6-->
+			  							<div class="col-md-6">
+			  								<label>bandwidth</label>
+			  								<h2>900 <em>GB</em></h2>
+			  							</div><!--.col-md-6-->
+			  						</div><!--.row-->
+			  					</div><!--.server-heading-->
+			  				</div><!--.block-container-->
+			  				<div class="block-footer">
+			  				  <a href="javascript:;" class="clviewmore more-error">diagnose server</a>
+			  				</div><!--.block-footer-->
+			  			</div><!--.block-card-->
+			  		</div><!--.col-md-3-->
+			  		<!-- Services :: END -->
+			  		
+			  		<!-- Services :: START -->
+			  		<div class="col-md-3">
+			  			<div class="block-card" style="border: 1px solid red;">
+			  				<div class="block-header">
+			  				  <em class="status-text status-inactive">
+			  				    <span class="status-label">status :</span>
+			  				    inactive
+			  				  </em>
+			  					<span class="blinker blink-red blink-shiftright"></span>
+			  				</div><!--.block-header-->
+			  				<div class="block-container">
+			  					<img src="images/services.png" alt="" />
+			  					<div class="server-heading">
+			  						<h1>Services</h1>
+			  						<div class="row">
+			  							<div class="col-md-6">
+			  								<label class="response-low">response time</label>
+			  								<h2 class="response-low">14 <em>ms</em></h2>
+			  							</div><!--.col-md-6-->
+			  							<div class="col-md-6">
+			  								<label>bandwidth</label>
+			  								<h2>900 <em>GB</em></h2>
+			  							</div><!--.col-md-6-->
+			  						</div><!--.row-->
+			  					</div><!--.server-heading-->
+			  				</div><!--.block-container-->
+			  				<div class="block-footer">
+			  				  <a href="javascript:;" class="clviewmore more-error">diagnose server</a>
+			  				</div><!--.block-footer-->
+			  			</div><!--.block-card-->
+			  		</div><!--.col-md-3-->
+			  		<!-- Services :: END -->
+			  		
+			  	</div><!--.row-->
+			  	
+			  	<div class="row">
+			  	  
+			  	  <!-- DB Server :: START -->
+			  		<div class="col-md-3">
+			  			<div class="block-card">
+			  				<div class="block-header">
+			  				  <em class="status-text status-active">
+			  				    <span class="status-label">status :</span>
+			  				    active
+			  				  </em>
+			  					<span class="blinker blink-green blink-shiftright"></span>
+			  				</div><!--.block-header-->
+			  				<div class="block-container">
+			  					<img src="images/db-serrver.png" alt="" />
+			  					<div class="server-heading">
+			  						<h1>DB-Server</h1>
+			  						<div class="row">
+			  							<div class="col-md-6">
+			  								<label>response time</label>
+			  								<h2>134 <em>ms</em></h2>
+			  							</div><!--.col-md-6-->
+			  							<div class="col-md-6">
+			  								<label>bandwidth</label>
+			  								<h2>1000 <em>GB</em></h2>
+			  							</div><!--.col-md-6-->
+			  						</div><!--.row-->
+			  					</div><!--.server-heading-->
+			  				</div><!--.block-container-->
+			  				<div class="block-footer">
+			  				  <a href="javascript:;" class="clviewmore">see details</a>
+			  				</div><!--.block-footer-->
+			  			</div><!--.block-card-->
+			  		</div><!--.col-md-3-->
+			  		<!-- DB Server :: END -->
+			  		
+			  		<!-- Front End :: START -->
+			  		<div class="col-md-3">
+			  			<div class="block-card">
+			  				<div class="block-header">
+			  				  <em class="status-text status-active">
+			  				    <span class="status-label">status :</span>
+			  				    active
+			  				  </em>
+			  					<span class="blinker blink-yellow blink-shiftright"></span>
+			  				</div><!--.block-header-->
+			  				<div class="block-container">
+			  					<img src="images/front-end.png" alt="" />
+			  					<div class="server-heading">
+			  						<h1>Front-End</h1>
+			  						<div class="row">
+			  							<div class="col-md-6">
+			  								<label>response time</label>
+			  								<h2>224 <em>ms</em></h2>
+			  							</div><!--.col-md-6-->
+			  							<div class="col-md-6">
+			  								<label>bandwidth</label>
+			  								<h2>900 <em>GB</em></h2>
+			  							</div><!--.col-md-6-->
+			  						</div><!--.row-->
+			  					</div><!--.server-heading-->
+			  				</div><!--.block-container-->
+			  				<div class="block-footer">
+			  				  <a href="javascript:;" class="clviewmore">see details</a>
+			  				</div><!--.block-footer-->
+			  			</div><!--.block-card-->
+			  		</div><!--.col-md-3-->
+			  		<!-- Front End :: END -->
+			  		
+			  		<!-- Services :: START -->
+			  		<div class="col-md-3">
+			  			<div class="block-card" style="border: 1px solid red;">
+			  				<div class="block-header">
+			  				  <em class="status-text status-inactive">
+			  				    <span class="status-label">status :</span>
+			  				    inactive
+			  				  </em>
+			  					<span class="blinker blink-red blink-shiftright"></span>
+			  				</div><!--.block-header-->
+			  				<div class="block-container">
+			  					<img src="images/services.png" alt="" />
+			  					<div class="server-heading">
+			  						<h1>Services</h1>
+			  						<div class="row">
+			  							<div class="col-md-6">
+			  								<label class="response-low">response time</label>
+			  								<h2 class="response-low">14 <em>ms</em></h2>
+			  							</div><!--.col-md-6-->
+			  							<div class="col-md-6">
+			  								<label>bandwidth</label>
+			  								<h2>900 <em>GB</em></h2>
+			  							</div><!--.col-md-6-->
+			  						</div><!--.row-->
+			  					</div><!--.server-heading-->
+			  				</div><!--.block-container-->
+			  				<div class="block-footer">
+			  				  <a href="javascript:;" class="clviewmore more-error">diagnose server</a>
+			  				</div><!--.block-footer-->
+			  			</div><!--.block-card-->
+			  		</div><!--.col-md-3-->
+			  		<!-- Services :: END -->
+			  		
+			  		<!-- Services :: START -->
+			  		<div class="col-md-3">
+			  			<div class="block-card" style="border: 1px solid red;">
+			  				<div class="block-header">
+			  				  <em class="status-text status-inactive">
+			  				    <span class="status-label">status :</span>
+			  				    inactive
+			  				  </em>
+			  					<span class="blinker blink-red blink-shiftright"></span>
+			  				</div><!--.block-header-->
+			  				<div class="block-container">
+			  					<img src="images/services.png" alt="" />
+			  					<div class="server-heading">
+			  						<h1>Services</h1>
+			  						<div class="row">
+			  							<div class="col-md-6">
+			  								<label class="response-low">response time</label>
+			  								<h2 class="response-low">14 <em>ms</em></h2>
+			  							</div><!--.col-md-6-->
+			  							<div class="col-md-6">
+			  								<label>bandwidth</label>
+			  								<h2>900 <em>GB</em></h2>
+			  							</div><!--.col-md-6-->
+			  						</div><!--.row-->
+			  					</div><!--.server-heading-->
+			  				</div><!--.block-container-->
+			  				<div class="block-footer">
+			  				  <a href="javascript:;" class="clviewmore more-error">diagnose server</a>
+			  				</div><!--.block-footer-->
+			  			</div><!--.block-card-->
+			  		</div><!--.col-md-3-->
+			  		<!-- Services :: END -->
+			  		
+			  	</div><!--.row-->
+			  	
+			  </div><!--#tabcontent-allserver.tab-content-->
+			  
+			  
+			  <div id="tabcontent-myserver" class="tab-content">	
+			  	<div class="row">
+			  	  <!-- DB Server :: START -->
+			  		<div class="col-md-12">
+			  			<div class="vgap20"></div><!--.vgap20-->
+			  				<a href="javascript:;" class="btn-addnew-group" data-toggle="modal" data-target="#modal-create-group">Create new group</a>
+			  			<div class="vgap20"></div><!--.vgap20-->
+			  		</div><!--.col-md-12-->
+			  		<!-- DB Server :: END -->
+			  	</div><!--.row-->
+				
+				<div class="big-container">
+				  	<div class="row">
+				  	  <!-- DB Server :: START -->
+				  		<div class="col-md-12">
+				  			<h4 class="page-heading-fancy">
+				  				<img src="images/front-end.png" alt="" />
+				  				<em>Roaming Management Unit</em>
+				  				<a href="javascript:;" data-toggle="modal" data-target="#modal-update-group">Edit this group</a>
+				  			</h4><!--.page-heading-->
+				  		</div><!--.col-md-12-->
+				  		<!-- DB Server :: END -->
+				  	</div><!--.row-->
+				  	<div class="row">
+				  		<div class="col-md-4">
+				  			<div class="create-group">
+				  			  <ul class="lst-create-group">
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected">
+				  			        <img src="images/ServersWithGlobe.png" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-green blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Server Italy 1</h3>				  			          
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/DiskRotate.gif" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Server Africa 1</h3>				  			         
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    
+				  			  </ul><!--.lst-create-group-->
+				  			</div><!--.create-group-->
+				  			<div class="vgap20"></div><!--.-->
+				  		</div><!--.-->
+
+				  		<div class="col-md-4">
+				  			<div class="create-group">
+				  			  <ul class="lst-create-group">
+				  			    
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/ServerBlinking.gif" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Interface 1</h3>				  			         
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    
+				  			  </ul><!--.lst-create-group-->
+				  			</div><!--.create-group-->
+				  			<div class="vgap20"></div><!--.-->
+				  		</div><!--.-->
+
+				  		<div class="col-md-4">
+				  			<div class="create-group">
+				  			  <ul class="lst-create-group">
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected">
+				  			        <img src="images/whiteDBwithPerson.jpg" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-green blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Cloud DB 1</h3>
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/db-serrver.png" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Internal DB 1</h3>
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/3dDB.jpg" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Internal DB 2</h3>
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    
+				  			  </ul><!--.lst-create-group-->
+				  			</div><!--.create-group-->
+				  			<div class="vgap20"></div><!--.-->
+				  		</div><!--.-->
+
+
+				  	</div><!--.row-->
+				</div><!--big-container-->
+
+				<div class="big-container">
+				  	<div class="row">
+				  	  <!-- DB Server :: START -->
+				  		<div class="col-md-12">
+				  			<h4 class="page-heading-fancy">
+				  				<img src="images/front-end.png" alt="" />
+				  				<em>ISD Process Unit</em>
+				  				<a href="javascript:;" data-toggle="modal" data-target="#modal-update-group">Edit this group</a>
+				  			</h4><!--.page-heading-->
+				  		</div><!--.col-md-12-->
+				  		<!-- DB Server :: END -->
+				  	</div><!--.row-->
+				  	<div class="row">
+				  		<div class="col-md-4">
+				  			<div class="create-group">
+				  			  <ul class="lst-create-group">
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected">
+				  			        <img src="images/ServersWithGlobe.png" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-green blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Server Niagra 1</h3>				  			          
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/DiskRotate.gif" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Server Bushkill 1</h3>				  			         
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    
+				  			  </ul><!--.lst-create-group-->
+				  			</div><!--.create-group-->
+				  			<div class="vgap20"></div><!--.-->
+				  		</div><!--.-->
+
+				  		<div class="col-md-4">
+				  			<div class="create-group">
+				  			  <ul class="lst-create-group">
+				  			    
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/ServerBlinking.gif" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Interface 1</h3>				  			         
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/ServerBlinking.gif" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Interface 2</h3>				  			         
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    
+				  			  </ul><!--.lst-create-group-->
+				  			</div><!--.create-group-->
+				  			<div class="vgap20"></div><!--.-->
+				  		</div><!--.-->
+
+				  		<div class="col-md-4">
+				  			<div class="create-group">
+				  			  <ul class="lst-create-group">
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected">
+				  			        <img src="images/whiteDBwithPerson.jpg" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-green blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>Hadoop DB 1</h3>
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/whiteDBwithPerson.jpg" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>External DB 3</h3>
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    <li>
+				  			      <a href="javascript:;" class="group-item group-selected" style="border: 1px solid red;">
+				  			        <img src="images/db-serrver.png" class="group-icon" alt="" />
+				  			        <div class="group-selector">
+				  			          <span class="blinker blink-red blink-shiftright"></span>
+				  			        </div><!--.group-selector-->
+				  			        <div class="group-content">
+				  			          <h3>External DB 2</h3>
+				  			        </div><!--.group-content-->
+				  			      </a><!--.group-item-->
+				  			    </li>
+				  			    
+				  			  </ul><!--.lst-create-group-->
+				  			</div><!--.create-group-->
+				  			<div class="vgap20"></div><!--.-->
+				  		</div><!--.-->
+
+
+				  	</div><!--.row-->
+				</div><!--big-container-->
+				
+			  </div><!--#tabcontent-myserver-->
+
+			  	
+			  </div><!--#tabcontent-myserver.tab-content-->
+			  
+			  
+			  <div id="tabcontent-adminserver" class="tab-content">
+			  	<div class="container-fluid">
+			  	  <div class="row">
+			  	    <!-- DB Server :: START -->
+			  	  	<div class="col-md-12">
+			  	  		<div class="vgap20"></div><!--.vgap20-->
+			  	  		<a href="javascript:;" class="btn-addnew-group" data-toggle="modal" data-target="#modal-addnewserver">Add New Server</a>
+			  	  		<div class="vgap20"></div><!--.vgap20-->
+			  	  	</div><!--.col-md-12-->
+			  	  	<!-- DB Server :: END -->
+			  	  </div><!--.row-->
+			  		<div class="row">
+			  			<div class="col-md-12">
+			  				<div class="server-content">
+			  					<div class="server-list">
+			  						<table class="table">
+			  							<tr>
+			  								<th></th>
+			  								<th>
+			  									<em>Server Name</em>
+			  								</th>
+			  								<th>
+			  									<em>URL</em>
+			  								</th>
+			  								<th>
+			  									<em>Type</em>
+			  								</th>
+			  								<th>
+			  									<em>Upswing</em>
+			  								</th>
+			  								<th>
+			  									<em>Response Time</em>
+			  								</th>
+			  								<th>
+			  									<em>Active</em>
+			  								</th>
+			  								<th></th>
+			  							</tr>
+			  							<tr>
+			  								<td>
+			  									<em>1</em>
+			  								</td>
+			  								<td>
+			  									<img src="images/db-serrver.png" alt="" width="22px" />
+			  									<a href="javascript:;" data-toggle="modal" data-target="#modal-myperks">Myperks</a>
+			  								</td>
+			  								<td>
+			  									<em>http://www.myperks.in</em>
+			  								</td>
+			  								<td>
+			  									<em>WS</em>
+			  								</td>
+			  								<td>
+			  									<em>-</em>
+			  								</td>
+			  								<td>
+			  									<em>500ms</em>
+			  								</td>
+			  								<td>
+			  									<em class="active-server">active</em>
+			  									<img class="active-server-indicator" src="https://img.kwench.in/images/icon/kfit/general/kfit_checkmark_outline.png" alt="" />
+			  								</td>
+			  								<td>
+			  									<a href="javascript::" data-toggle="modal" data-target="#modal-edit-myperks">edit</a>
+			  									<a href="javascript::" data-toggle="modal">delete</a>
+			  								</td>
+			  							</tr>
+			  							<tr>
+			  								<td>
+			  									<em>1</em>
+			  								</td>
+			  								<td>
+			  									<img src="images/db-serrver.png" alt="" width="22px" />
+			  									<a href="javascript:;" data-toggle="modal" data-target="#modal-myperks">Myperks</a>
+			  								</td>
+			  								<td>
+			  									<em>http://www.myperks.in</em>
+			  								</td>
+			  								<td>
+			  									<em>WS</em>
+			  								</td>
+			  								<td>
+			  									<em>-</em>
+			  								</td>
+			  								<td>
+			  									<em>500ms</em>
+			  								</td>
+			  								<td>
+			  									<em class="active-server">active</em>
+			  									<img class="active-server-indicator" src="https://img.kwench.in/images/icon/kfit/general/kfit_checkmark_outline.png" alt="" />
+			  								</td>
+			  								<td>
+			  									<a href="javascript::" data-toggle="modal" data-target="#modal-edit-myperks">edit</a>
+			  									<a href="javascript::" data-toggle="modal">delete</a>
+			  								</td>
+			  							</tr>
+			  							<tr>
+			  								<td>
+			  									<em>1</em>
+			  								</td>
+			  								<td>
+			  									<img src="images/db-serrver.png" alt="" width="22px" />
+			  									<a href="javascript:;" data-toggle="modal" data-target="#modal-myperks">Myperks</a>
+			  								</td>
+			  								<td>
+			  									<em>http://www.myperks.in</em>
+			  								</td>
+			  								<td>
+			  									<em>WS</em>
+			  								</td>
+			  								<td>
+			  									<em>-</em>
+			  								</td>
+			  								<td>
+			  									<em>500ms</em>
+			  								</td>
+			  								<td>
+			  									<em class="active-server">active</em>
+			  									<img class="active-server-indicator" src="https://img.kwench.in/images/icon/kfit/general/kfit_checkmark_outline.png" alt="" />
+			  								</td>
+			  								<td>
+			  									<a href="javascript::" data-toggle="modal" data-target="#modal-edit-myperks">edit</a>
+			  									<a href="javascript::" data-toggle="modal">delete</a>
+			  								</td>
+			  							</tr>
+			  							<tr>
+			  								<td>
+			  									<em>1</em>
+			  								</td>
+			  								<td>
+			  									<img src="images/db-serrver.png" alt="" width="22px" />
+			  									<a href="javascript:;" data-toggle="modal" data-target="#modal-myperks">Myperks</a>
+			  								</td>
+			  								<td>
+			  									<em>http://www.myperks.in</em>
+			  								</td>
+			  								<td>
+			  									<em>WS</em>
+			  								</td>
+			  								<td>
+			  									<em>-</em>
+			  								</td>
+			  								<td>
+			  									<em>500ms</em>
+			  								</td>
+			  								<td>
+			  									<em class="active-server">active</em>
+			  									<img class="active-server-indicator" src="https://img.kwench.in/images/icon/kfit/general/kfit_checkmark_outline.png" alt="" />
+			  								</td>
+			  								<td>
+			  									<a href="javascript::" data-toggle="modal" data-target="#modal-edit-myperks">edit</a>
+			  									<a href="javascript::" data-toggle="modal">delete</a>
+			  								</td>
+			  							</tr>
+			  							<tr>
+			  								<td>
+			  									<em>1</em>
+			  								</td>
+			  								<td>
+			  									<img src="images/db-serrver.png" alt="" width="22px" />
+			  									<a href="javascript:;" data-toggle="modal" data-target="#modal-myperks">Myperks</a>
+			  								</td>
+			  								<td>
+			  									<em>http://www.myperks.in</em>
+			  								</td>
+			  								<td>
+			  									<em>WS</em>
+			  								</td>
+			  								<td>
+			  									<em>-</em>
+			  								</td>
+			  								<td>
+			  									<em>500ms</em>
+			  								</td>
+			  								<td>
+			  									<em class="active-server">active</em>
+			  									<img class="active-server-indicator" src="https://img.kwench.in/images/icon/kfit/general/kfit_checkmark_outline.png" alt="" />
+			  								</td>
+			  								<td>
+			  									<a href="javascript::" data-toggle="modal" data-target="#modal-edit-myperks">edit</a>
+			  									<a href="javascript::" data-toggle="modal">delete</a>
+			  								</td>
+			  							</tr>
+			  						</table>
+			  					</div><!--.server-list-->
+			  				</div><!--.server-content-->
+			  			</div><!--.col-md-12-->
+			  		</div><!--.row-->
+			  	</div><!--.container-->
+			  </div><!--#tabcontent-adminserver.tab-content-->
+				
+			</div><!--.container-->
+		</div><!--.content-->
+		
+		<div class="footer">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-md-12">
+		        <p>Copyrights &copy; 2015 Bhabani. All rights reserved</p>
+		      </div><!--.col-md-12-->
+		    </div><!--.row-->
+		  </div><!--.container-->
+		</div><!--.footer-->
+		
+		<!-- Modal -->
+		<div class="modal fade" id="modal-showserver-connected" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title">Sever Summary</h4>
+					</div><!--.modal-header-->
+					<div class="modal-body">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/AB_de_Villiers_ODI_batting_graph_with_10-innings_average.svg" alt="" width="100%" />
+					</div><!--.modal-body-->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Check more details</button>
+					</div><!--.modal-footer-->
+				</div><!--.modal-content-->
+			</div><!--.modal-dialog-->
+		</div><!--#modal-showserver-connected-->
+		
+		<!-- Modal Popup :: START -->
+		<div class="modal fade" id="modal-create-group" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		        <h5>Create Group</h5>
+		      </div><!--.modal-header-->
+		      <div class="modal-body">
+		        <div class="create-group">
+		          <ul class="lst-create-group">
+		            <li>
+		              <a href="javascript:;" class="group-item group-selected">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+  		                  <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                    <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                    <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                    <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                    <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		          </ul><!--.lst-create-group-->
+		        </div><!--.create-group-->
+		      </div><!--.modal-body-->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Create Group</button>
+		      </div><!--.modal-footer-->
+		    </div><!--.modal-content-->
+		  </div><!--.modal-dialog.modal-lg-->
+		</div> <!--#modal-create-group-->
+		<!-- Modal Popup :: END -->
+		
+		<!-- Modal Popup :: START -->
+		<div class="modal fade" id="modal-update-group" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		        <h5>Edit Group</h5>
+		      </div><!--.modal-header-->
+		      <div class="modal-body">
+		        <div class="create-group">
+		          <ul class="lst-create-group">
+		            <li>
+		              <a href="javascript:;" class="group-item group-selected">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+			                  <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item group-selected">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                      <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item group-selected">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                      <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item group-selected">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                      <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item group-selected">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                      <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		            <li>
+		              <a href="javascript:;" class="group-item group-selected">
+		                <img src="images/db-serrver.png" class="group-icon" alt="" />
+		                <div class="group-selector">
+		                  <em class="group-checkbox">
+		                      <img src="http://img.kwench.in/images/icon/check-mark-20.png" />
+		                  </em>
+		                </div><!--.group-selector-->
+		                <div class="group-content">
+		                  <h3>Server Name</h3>
+		                  <em>Category : <b>Server Type</b></em>
+		                </div><!--.group-content-->
+		              </a><!--.group-item-->
+		            </li>
+		          </ul><!--.lst-create-group-->
+		        </div><!--.create-group-->
+		      </div><!--.modal-body-->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Update Group</button>
+		      </div><!--.modal-footer-->
+		    </div><!--.modal-content-->
+		  </div><!--.modal-dialog.modal-lg-->
+		</div> <!--#modal-update-group-->
+		<!-- Modal Popup :: END -->
+		
+		<!-- Modal Popup :: START -->
+		<div class="modal fade" id="modal-addnewserver" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+		        <h5>Add New Server</h5>
+		      </div><!--.modal-header-->
+		      <div class="modal-body">
+		        <div class="row">
+		          <div class="col-md-3">
+		            <div class="center-content">
+		              <img src="images/db-serrver.png" alt="" width="100%" />
+		              <div class="vgap20"></div><!--.vgap20-->
+		              <a href="javascript:;">CHANGE SERVER IMAGE</a>
+		            </div><!--.center-content-->
+		          </div><!--.col-md-3-->
+		          <div class="col-md-9">
+		            <div class="vgap20"></div><!--.vgap20-->
+		            <div class="row">
+		              <div class="col-md-3">
+		                <label>Name : </label>
+		              </div><!--.col-md-3-->
+		              <div class="col-md-9">
+		                <input type="text" name="" value="" placeholder="Server Name" class="form-control" />
+		              </div><!--.col-md-9-->
+		            </div><!--.row-->
+		            <div class="vgap20"></div><!--.vgap20-->
+		            <div class="row">
+		              <div class="col-md-3">
+		                <label>URL : </label>
+		              </div><!--.col-md-3-->
+		              <div class="col-md-9">
+		                <input type="text" name="" value="" placeholder="Server URL" class="form-control" />
+		              </div><!--.col-md-9-->
+		            </div><!--.row-->
+		            <div class="vgap20"></div><!--.vgap20-->
+		            <div class="row">
+		              <div class="col-md-3">
+		                <label>IP Address : </label>
+		              </div><!--.col-md-3-->
+		              <div class="col-md-9">
+		                <input type="text" name="" value="" placeholder="IP Address" class="form-control" />
+		              </div><!--.col-md-9-->
+		            </div><!--.row-->
+		            <div class="vgap20"></div><!--.vgap20-->
+		            <div class="row">
+		              <div class="col-md-3">
+		                <label>Department : </label>
+		              </div><!--.col-md-3-->
+		              <div class="col-md-9">
+		                <input type="text" name="" value="" placeholder="Department" class="form-control" />
+		              </div><!--.col-md-9-->
+		            </div><!--.row-->
+		            <div class="vgap20"></div><!--.vgap20-->
+		          </div><!--.col-md-9-->
+		        </div><!--.row-->
+		      </div><!--.modal-body-->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save Server</button>
+		      </div><!--.modal-footer-->
+		    </div><!--.modal-content-->
+		  </div><!--.modal-dialog.modal-lg-->
+		</div> <!--#modal-addnewserver-->
+		<!-- Modal Popup :: END -->
+		
+		<style type="text/css">
+		  table tr td a {
+		    margin-left: 10px;
+		  }
+		  .center-content {
+		    text-align: center;
+		  }
+		</style>
+		
+		<!-- scripts -->
+		<script src="scripts/jquery.min.js" type="text/javascript"></script>
+		<script src="scripts/bootstrap.min.js" type="text/javascript"></script>
+		<script src="scripts/serverbase.js" type="text/javascript"></script>
+	</body>
+</html>
